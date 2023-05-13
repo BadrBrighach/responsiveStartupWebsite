@@ -16,6 +16,7 @@ const Container = styled.div`
   align-items: center;
   flex-direction: row;
   border-radius: 5px;
+  padding-bottom: 10px;
   padding-left: 16px;
   padding-right: 16px;
 `;
@@ -25,6 +26,7 @@ const LearnMore = styled.span`
   color: rgba(255,255,255,1);
   font-size: 20px;
   font-weight: 400;
+  padding-top: 10px;
 `;
 
 export default CupertinoButtonLight;

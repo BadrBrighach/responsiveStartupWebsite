@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 function CupertinoButtonLight1(props) {
   return (
     <Container {...props}>
-      <Explore>test</Explore>
+      <Explore>Explore</Explore>
     </Container>
   );
 }
@@ -16,8 +16,7 @@ const Container = styled.div`
   align-items: center;
   flex-direction: row;
   border-radius: 5px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 5px;
 `;
 
 const Explore = styled.span`

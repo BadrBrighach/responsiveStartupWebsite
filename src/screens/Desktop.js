@@ -67,8 +67,8 @@ function Desktop(props) {
           </Text2>
           <CupertinoButtonLight
             style={{
-              width: 170,
-              height: 48,
+              width: 110,
+              height: 55,
               marginTop: 39
             }}
           ></CupertinoButtonLight>
@@ -84,8 +84,8 @@ function Desktop(props) {
           </Text4>
           <CupertinoButtonLight
             style={{
-              width: 170,
-              height: 48,
+              width: 110,
+              height: 77,
               marginTop: 33
             }}
           ></CupertinoButtonLight>
@@ -148,7 +148,7 @@ function Desktop(props) {
         style={{
           width: 170,
           height: 48,
-          marginTop: -2169,
+          marginTop: -2132,
           marginLeft: 604
         }}
       ></CupertinoButtonLight>
@@ -157,7 +157,7 @@ function Desktop(props) {
 }
 
 const Rect = styled.div`
-  width: 1440px;
+  width: 1349px;
   height: 586px;
   background-color: rgba(116,198,157,1);
   flex-direction: column;
@@ -277,7 +277,7 @@ const Image2 = styled.img`
 `;
 
 const Group10Row = styled.div`
-  height: 378px;
+  height: 380px;
   flex-direction: row;
   display: flex;
   margin-top: 39px;
@@ -330,7 +330,7 @@ const Group = styled.div`
   height: 53px;
   flex-direction: row;
   display: flex;
-  margin-top: 26px;
+  margin-top: 60px;
   margin-left: 135px;
 `;
 
@@ -423,7 +423,7 @@ const Image8Row = styled.div`
 
 const Group3 = styled.div`
   width: 392px;
-  height: 244px;
+  height: 254px;
   flex-direction: column;
   display: flex;
   margin-top: 161px;
@@ -456,7 +456,7 @@ const Image9 = styled.img`
 `;
 
 const Group3Row = styled.div`
-  height: 566px;
+  height: 576px;
   flex-direction: row;
   display: flex;
   margin-top: 62px;
@@ -466,7 +466,7 @@ const Group3Row = styled.div`
 
 const Group5 = styled.div`
   width: 340px;
-  height: 144px;
+  height: 90px;
   flex-direction: column;
   display: flex;
   margin-top: 77px;
@@ -508,14 +508,16 @@ const LoremIpsumDolor5 = styled.span`
 
 const Group6 = styled.div`
   width: 260px;
-  height: 299px;
+  height: 300px;
   flex-direction: column;
   display: flex;
+  align-items: center;
 `;
 
 const Rect5 = styled.div`
   width: 260px;
-  height: 299px;
+  height: 300px;
+  padding-bottom: 40px;
   background-color: rgba(255,255,255,1);
   flex-direction: column;
   display: flex;
@@ -536,7 +538,7 @@ const PegLegge = styled.span`
   font-weight: 700;
   color: #121212;
   font-size: 24px;
-  margin-top: 22px;
+  margin-top: 20px;
   margin-left: 41px;
 `;
 
@@ -552,7 +554,7 @@ const Ceo = styled.span`
 
 const Group7 = styled.div`
   width: 260px;
-  height: 299px;
+  height: 300px;
   flex-direction: column;
   display: flex;
   margin-left: 35px;
@@ -560,7 +562,8 @@ const Group7 = styled.div`
 
 const Rect6 = styled.div`
   width: 260px;
-  height: 299px;
+  height: 300px;
+  padding-bottom: 40px;
   background-color: rgba(255,255,255,1);
   flex-direction: column;
   display: flex;
@@ -597,7 +600,7 @@ const Cto = styled.span`
 
 const Group8 = styled.div`
   width: 260px;
-  height: 299px;
+  height: 300px;
   flex-direction: column;
   display: flex;
   margin-left: 29px;
@@ -605,7 +608,8 @@ const Group8 = styled.div`
 
 const Rect7 = styled.div`
   width: 260px;
-  height: 299px;
+  height: 300px;
+  padding-bottom: 40px;
   background-color: rgba(255,255,255,1);
   flex-direction: column;
   display: flex;
@@ -642,7 +646,7 @@ const Designer = styled.span`
 
 const Group9 = styled.div`
   width: 260px;
-  height: 299px;
+  height: 300px;
   flex-direction: column;
   display: flex;
   margin-left: 23px;
@@ -650,7 +654,8 @@ const Group9 = styled.div`
 
 const Rect8 = styled.div`
   width: 260px;
-  height: 299px;
+  height: 300px;
+  padding-bottom: 40px;
   background-color: rgba(255,255,255,1);
   flex-direction: column;
   display: flex;
@@ -686,7 +691,7 @@ const Developer = styled.span`
 `;
 
 const Group6Row = styled.div`
-  height: 299px;
+  height: 300px;
   flex-direction: row;
   display: flex;
   margin-top: 126px;
@@ -695,10 +700,10 @@ const Group6Row = styled.div`
 `;
 
 const Rect9 = styled.div`
-  top: 37px;
+  top: 51px;
   left: 0px;
-  width: 1440px;
-  height: 125px;
+  width: 1348px;
+  height: 149px;
   position: absolute;
   background-color: rgba(116,198,157,1);
   flex-direction: column;
@@ -708,24 +713,24 @@ const Rect9 = styled.div`
 const LoremIpsum8 = styled.span`
   font-family: Work Sans;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 310px;
   color: rgba(255,255,255,1);
   font-size: 20px;
-  margin-top: 51px;
+  margin-top: 78px;
   margin-left: 984px;
 `;
 
 const Image14 = styled.img`
-  top: 0px;
+  top: 50px;
   left: 161px;
   width: 243px;
-  height: 200px;
+  height: 148px;
   position: absolute;
   object-fit: contain;
 `;
 
 const Rect9Stack = styled.div`
-  width: 1440px;
+  width: 1345px;
   height: 200px;
   margin-top: 30px;
   margin-left: 1px;
