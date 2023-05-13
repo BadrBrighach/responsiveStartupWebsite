@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 function CupertinoButtonLight1(props) {
   return (
     <Container {...props}>
-      <Explore>Explore</Explore>
+      <Explore>test</Explore>
     </Container>
   );
 }
